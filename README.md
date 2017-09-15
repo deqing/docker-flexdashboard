@@ -18,6 +18,7 @@ To install docker in other operating systems check [docker online documentation]
 To build container use the command below:
 
     $ cd ~/docker-flexdashboard/
+    $ chmod +x shiny-server.sh
     $ docker build -t flexdashboard:latest .
 
 ## Run Docker container
